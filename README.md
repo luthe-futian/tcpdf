@@ -12,16 +12,27 @@ define ('PDF_FONT_NAME_MAIN', 'stsongstdlight');
 4.可选属性
 
   [
+  
         'html' => [],
+        
         'size' => 'A3',
+        
         'author' => '',
+        
         'creator' => '',
+        
         'title' => '',
+        
         'header' => false, //页眉
+        
         'footer' => true,  //页脚
+        
         'subject' => '',
+        
         'keywords' => '',
+        
         'output' => 'F',
+        
         'filename' => '' //默认upload下，可以创建目录 pdf/aaa.pdf
     ]
     html 一个元素为一页
